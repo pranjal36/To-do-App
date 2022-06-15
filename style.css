@@ -32,6 +32,17 @@
     position: relative;
     background: #fafafa;
   }
+
+  a{
+    text-decoration: none;
+    margin-left: 2px;
+    font-size: 110%;
+  }
+
+  a:hover{
+    text-decoration: underline;
+    color: darkblue;
+  }
   
   .background {
     z-index: -1;
@@ -124,7 +135,7 @@
   .todo__left{
     width: 25%;
   }
-  
+
   
   .todo__ghostButton {
     display: none;
