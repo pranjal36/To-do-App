@@ -118,6 +118,11 @@
   
   .todo__clear {
     cursor: pointer;
+    width: 25%;
+  }
+
+  .todo__left{
+    width: 25%;
   }
   
   .todo__ghostButton {
@@ -130,7 +135,7 @@
     margin-top: 1.5rem;
     border-radius: 0.5rem;
     background: white;
-    width: 100%;
+    width: 75%;
     display: grid;
     place-items: center;
     padding: 1.5rem;
